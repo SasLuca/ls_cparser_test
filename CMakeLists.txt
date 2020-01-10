@@ -7,10 +7,10 @@ set(CXX_EXTENSIONS OFF)
 
 add_subdirectory(external/Catch2)
 
-include_directories(source)
+include_directories(sources)
 
-file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS source/*)
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS sources/*)
 file(GLOB_RECURSE TEST_SOURCES CONFIGURE_DEPENDS tests/*)
 
-add_executable(test_tokenizer tests/catch2_main.cpp tests/tokenizer_tests.cpp source/ls_cparser.h)
+add_executable(test_tokenizer tests/catch2_main.cpp tests/tokenizer_tests.cpp sources/ls_cparser.h)
 target_link_libraries(test_tokenizer PRIVATE Catch2)

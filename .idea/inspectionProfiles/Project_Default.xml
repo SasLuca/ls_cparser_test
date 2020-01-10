@@ -2051,6 +2051,7 @@
     <inspection_tool class="OCNotLocalizedString" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OCNotReleasedIvar" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="OCUnusedConcept" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="OCUnusedGlobalDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ObjectAllocationIgnoredJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ObjectAllocationInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ObjectEquality" enabled="false" level="WARNING" enabled_by_default="false">
